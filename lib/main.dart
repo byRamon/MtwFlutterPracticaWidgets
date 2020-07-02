@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'UserInput.dart';
 import 'layouts.dart';
  
 void main() {
-  debugPaintSizeEnabled = true; //         <--- enable visual rendering
-  runApp(Layouts());
+  //debugPaintSizeEnabled = true; //         <--- enable visual rendering
+  runApp(UserInput());
 }
  
 class MyApp extends StatelessWidget {
